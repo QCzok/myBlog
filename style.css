@@ -1,0 +1,21 @@
+/*
+Die Schriftarten: Montserrat Regulär 400
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Einheitliche Schriftart für alle HTML Elemente 
+    1. Fallback: Times New Roman
+    2. Fallback: serif-Standardschriftart des Betriebssystem
+*/
+* {
+    font-family: Montserrat, 'Times New Roman', serif;
+}
+
+/* Externer Style der Icons 'Carrot' */
+#carrot{
+    font-size: 72px;
+    color: orange;
+    font-style: italic;
+    margin: 20px;
+    border: 1px dashed orange;
+}
